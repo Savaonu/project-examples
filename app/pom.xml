@@ -20,6 +20,19 @@
         <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
 
+    <distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>L-1R0T8D3-releases</name>
+        <url>http://172.30.69.154:8081/artifactory/maven_repo</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>L-1R0T8D3-snapshots</name>
+        <url>http://172.30.69.154:8081/artifactory/maven_repo</url>
+    </snapshotRepository>
+</distributionManagement>
+
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
